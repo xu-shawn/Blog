@@ -7,14 +7,14 @@ title: Blog of Branden Xia
 subtitle: ''
 description: ''
 keywords:
-author: BrandenXia
+author: Branden Xia
 language: en
 timezone: 'Etc/GMT-7'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://BrandenXia.github.io
-permalink: :year/:month/:day/:title
+url: https://github.com/BrandenXia.github.io/project
+permalink: /:year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -105,4 +105,4 @@ deploy:
   type: git
   repo: https://github.com/BrandenXia/BrandenXia.github.io.git
   branch: main
-  token: gho_Se97eOkBlfQBdGfMc8rbcjmAvk3VyR02Qh452
+  token: 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
