@@ -1,0 +1,13 @@
+navbar:
+  blog_title: 'Branden Xia'
+index:
+  slogan:
+    text: "Blog of Branden Xia"
+about:
+  avatar: /img/avatar.jpeg
+  name: Branden Xia
+  intro: "A high school student"
+  icons:
+    - { class: "iconfont icon-github-fill", link: "https://github.com/BrandenXia", tip: "GitHub" }
+    - { class: "iconfont icon-steam", link: "https://steamcommunity.com/id/brandenxia", tip: "Steam"}
+    - { class: "iconfont icon-mail", link: "mailto:xxtbranden@outlook.com", tip: "Email"}
