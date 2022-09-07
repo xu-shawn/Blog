@@ -22,5 +22,5 @@ git push --set-upstream origin master
 ### Future Plan
 
 - [ ] Add comment system
-- [ ] Record the process of making this blog
+- [x] Record the process of making this blog
 - [ ] Add more articles
