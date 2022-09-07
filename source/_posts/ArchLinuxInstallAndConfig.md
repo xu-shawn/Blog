@@ -100,16 +100,18 @@ categories:
    $ umount /mnt
    $ shutdown -h now
    ```
+## Configuration
 
-10. Install the desktop
-    ```bash
-    user login: brandenxia
-    password:
-    $ sudo pacman -S xorg
-    $ sudo pacman -S i3-gaps
-    ```
+1. Install the desktop
+   ```bash
+   user login: brandenxia
+   password:
+   $ sudo pacman -S xorg
+   $ sudo pacman -S i3-gaps
+   ```
+   
+2. Config the desktop
 
-11. Config the desktop
     ```bash
     # copy config from github
     $ git clone https://github.com/BrandenXia/configs-dotfile ~/.config
@@ -123,10 +125,10 @@ categories:
     $ paru -S i3lock-fancy
     ```
 
-12. Enter desktop environment
+3. Enter desktop environment
     ```bash
     # start desktop
     $ startx "/usr/bin/i3"
     ```
 
-13. Finish
+4. Finish
