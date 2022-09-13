@@ -7,7 +7,7 @@ Blog of Branden Xia
 
 ### Get GitHub Page Ready
 
-Use hexo to atomatically push changes to BrandenXia.github.io
+Use hexo to automatically push changes to BrandenXia.github.io
 
 ```bash
 hexo g -d
@@ -21,6 +21,6 @@ git push --set-upstream origin master
 
 ### Future Plan
 
-- [ ] Add comment system
+- [x] Add comment system
 - [x] Record the process of making this blog
 - [ ] Add more articles

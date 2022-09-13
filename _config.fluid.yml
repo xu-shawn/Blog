@@ -11,3 +11,15 @@ about:
     - { class: "iconfont icon-github-fill", link: "https://github.com/BrandenXia", tip: "GitHub" }
     - { class: "iconfont icon-steam", link: "https://steamcommunity.com/id/brandenxia", tip: "Steam"}
     - { class: "iconfont icon-mail", link: "mailto:xxtbranden@outlook.com", tip: "Email"}
+post:
+  comments:
+    enable: true
+    type: gitalk
+gitalk:
+  clientID: "b01352ae9bddf891a214"
+  clientSecret: "662ce8e52815e967c8409785ffe11cb88333e75b"
+  repo: "GitalkComment"
+  owner: "BrandenXia"
+  admin: ['BrandenXia']
+  language: "zh-CN"
+  createIssueManually: true

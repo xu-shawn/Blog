@@ -54,14 +54,14 @@ categories:
 
 8. Start installation
    ```bash
-   $ pacstrap /mnt base linux linux-firmware neovim fish NetworkManager man-db man-pages
+   $ pacstrap /mnt base linux linux-firmware neovim fish networkmanager man-db man-pages
    $ genfstab -U /mnt >> /mnt/etc/fstab
    ```
 
 9. Chroot into the system and configure it
    ```bash
    $ arch-chroot /mnt
-   $ ln -sf /use/share/region /etc/localtime
+   $ ln -sf /use/share/zoneinfo/region /etc/localtime
    $ hwclock --systohc
    $ vim /etc/locale.gen
    ```
@@ -91,7 +91,7 @@ categories:
    ```bash
    $ mkinitcpio -P
    $ passwd
-   $ useradd -G wheel -s /usr/bin/fish brandenxia
+   $ useradd -m -G wheel -s /usr/bin/fish brandenxia
    $ passwd brandenxia
    $ visudo
    $ systemctl enable NetworkManager
@@ -118,7 +118,7 @@ categories:
     # install necessary software
     $ sudo pacman -S rofi ranger neofetch i3status alacritty fcitx5 flameshot pasystray nitrogen parcellite firefox
     # install font
-    $ sudo pacman -S font-roboto-mono
+    $ sudo pacman -S ttf-roboto ttf-roboto-mono
     # install aur manager
     $ sudo pacman -S paru
     # install i3lock-fancy from aur
