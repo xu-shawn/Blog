@@ -24,3 +24,4 @@ git push --set-upstream origin master
 - [x] Add comment system
 - [x] Record the process of making this blog
 - [ ] Add more articles
+- [ ] write a script to automatically push changes
