@@ -4,7 +4,7 @@ date: 2022-09-05 19:36:14
 tags:
 - Linux
 - DIY
-categories:
+  categories:
 - Linux
 ---
 # ArchLinux
@@ -37,7 +37,7 @@ categories:
 6. Partition the disk using `cfdisk`
 
    | Partition |      Space      |
-   | :-------: | :-------------: |
+      | :-------: | :-------------: |
    |   boot    |       1G        |
    |   swap    |       1G        |
    |   root    | All rest spaces |
@@ -109,7 +109,7 @@ categories:
    $ sudo pacman -S xorg
    $ sudo pacman -S i3-gaps
    ```
-   
+
 2. Config the desktop
 
     ```bash
@@ -131,4 +131,4 @@ categories:
     $ startx "/usr/bin/i3"
     ```
 
-4. Finish
+4. Finished
