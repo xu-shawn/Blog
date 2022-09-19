@@ -75,28 +75,27 @@ colorscheme dracula
 Edit basic.lua
 
 ```lua
--- 设置默认编码为utf8
+-- set default encoding to utf-8
 vim.g.encoding = "UTF-8"
 vim.o.fileencoding = 'utf-8'
--- 光标移动时下上方保留8行
+-- retain 8 lines when moving the cursor
 vim.o.scrolloff = 8
 vim.o.sidescrolloff = 8
--- 使用相对行号
+-- use relative number
 vim.wo.number = true
 vim.wo.relativenumber = true
--- 高亮所在行
+-- highlight where the cursor is
 vim.wo.cursorline = true
--- 搜索大小写不敏感，除非包含大写
+-- enable smart case
 vim.o.ignorecase = true
 vim.o.smartcase = true
--- 命令行高为2，提供足够的显示空间
 vim.o.cmdheight = 2
--- 鼠标支持
+-- mouse moving support
 vim.o.mouse = "a"
--- 不可见字符的显示，这里只把空格显示为一个点
+-- show space as a point
 vim.o.list = true
 vim.o.listchars = "space:·"
--- 补全增强
+-- enhance auto complete
 vim.o.wildmenu = true
 -- always show tabline
 vim.o.showtabline = 2
