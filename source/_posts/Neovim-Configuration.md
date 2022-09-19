@@ -300,4 +300,4 @@ map('i', '<S-Tab>', 'v:lua.smart_stab()', {expr = true, noremap = true})
 
 Run `:PackerSync` and then use nvimin your work.
 
-You can also add custom programming language support by installing plugin of Coc.nvim. (Install by `CocInstall PluginName` command)
+You can also add custom programming language support by installing plugin of Coc.nvim. (Install by `:CocInstall PluginName` command)
