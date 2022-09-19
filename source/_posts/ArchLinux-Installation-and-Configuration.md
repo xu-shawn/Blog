@@ -4,7 +4,7 @@ date: 2022-09-05 19:36:14
 tags:
 - Linux
 - DIY
-  categories:
+categories:
 - Linux
 ---
 # ArchLinux
