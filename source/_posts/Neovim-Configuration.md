@@ -6,7 +6,7 @@ tags:
 - DIY
 - Linux
 categories:
-- Linux
+- Neovim
 ---
 # Neovim
 
